@@ -16,10 +16,10 @@ Loaded through a RDBMS in this case, mySQL will give this output in a tabular fo
 
 
 TrainInfo Table:
-id (Primary Key): Unique identifier for each record
+>id (Primary Key): Unique identifier for each record
 from_station: Name of the departure station
 departure_time: Departure time in the format "YYYY-MM-DD HH:MM"
 end_destination: Name of the destination station
 train_number: Train identification number
 cancelled: Indicates if the train is canceled (1) or not (0)
-
+<
