@@ -7,11 +7,6 @@ import config
 
 def etl():
     # MySQL connection details & API stuff
-    host = config.host
-    port = config.port
-    user = config.user
-    password = config.password
-    database = config.database
     url = config.api_url
     api_key = config.api_key
     # List of train stations - add if needed
@@ -57,11 +52,11 @@ def etl():
 
         # Connect to the MySQL database
         conn = pymysql.connect(
-            host=host,
-            port=port,
-            user=user,
-            password=password,
-            database=database
+            host=config.host,
+            port=config.port,
+            user=config.user,
+            password=config.password,
+            database=config.database
         )
     
         cursor = conn.cursor()
