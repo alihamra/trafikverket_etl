@@ -12,7 +12,8 @@ Using Apache Airflow and dags, it is scheduled to run the Python script every 5 
 <img width="1439" alt="image" src="https://github.com/alihamra/trafikverket_etl/assets/135516165/c0f758df-d1c3-47e0-95a5-b215a5c25175">
 
 Loaded through a RDBMS in this case, mySQL will give this output in a tabular format:
-[![Ali](https://i.gyazo.com/2f81a43275f8b86d9f6d067fdd2e89cc.png)](alihamra)
+<img width="604" alt="image" src="https://github.com/alihamra/trafikverket_etl/assets/135516165/b0e9617b-865c-4566-b5f9-1e2ffa9b7937">
+
 
 TrainInfo Table:
 id (Primary Key): Unique identifier for each record
