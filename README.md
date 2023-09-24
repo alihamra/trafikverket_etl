@@ -9,10 +9,10 @@ Lastly, if the data has already been collected, it will not append to "records" 
 
 
 Using Apache Airflow and dags, it is scheduled to run the Python script every 5 minutes.
-<img width="1439" alt="image" src="Airflow ETL.png">
+<img width="1439" alt="image" src="https://raw.githubusercontent.com/alihamra/trafikverket_etl/main/Airflow%20ETL.png">
 
 Loaded into a RDBMS in this case, mySQL will give this output in a tabular format:
-<img width="604" alt="image" src="https://github.com/alihamra/trafikverket_etl/assets/135516165/b0e9617b-865c-4566-b5f9-1e2ffa9b7937">
+<img width="604" alt="image" src="https://raw.githubusercontent.com/alihamra/trafikverket_etl/main/SQL%20TrainInfo.png">
 
 
 TrainInfo Table:
